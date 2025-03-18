@@ -4,7 +4,7 @@
 
 Classwise ROC             |  Average ROC
 :-------------------------:|:-------------------------:
-![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_2.png?raw=true)
+![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC25_DeepLense_Task/blob/main/Common_Task/images/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC25_DeepLense_Task/blob/main/Common_Task/images/MultiROC_2.png?raw=true)
 <p align="center">Fig. The left plot shows class wise AUC scores with 0 class corresponding to 'no_substructure' 1_class to 'sphere' and 2 class to 'vort'. The right plot shows the average AUC over all three classes.</strong></p>
 
 
@@ -36,7 +36,7 @@ Run the GSOC'25_DeepLense_classification_common_task.ipynb file
 <p>The three classes of the data are shown below:</p> 
 
 <p align="center">
-  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/classification_data_description.png?raw=true" alt="Three classes of the data."  /> 
+  <img src="https://github.com/AarjavSatia/GSOC25_DeepLense_Task/blob/main/Common_Task/images/classification_data_description.png?raw=true" alt="Three classes of the data."  /> 
 </p>
 
 #### Dataset Preprocessing
