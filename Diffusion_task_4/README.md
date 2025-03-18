@@ -1,4 +1,4 @@
-# GSOC-24 DeepLense Diffusion Task
+# GSOC-25 DeepLense Diffusion Task
 
 <p align="center">
   <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
