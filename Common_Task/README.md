@@ -1,14 +1,25 @@
-## GSOC-24 DeepLense Common Task - Substructure Classification
+# GSOC-25 DeepLense Common Task - Classification
 
 
 
-Individual ROC             |  Average ROC
+Classwise ROC             |  Average ROC
 :-------------------------:|:-------------------------:
-![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/Images_ROC/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/Images_ROC/MultiROC_2.png?raw=true)
+![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_2.png?raw=true)
+### Dataset:
+#### Dataset Description:
+<p>The dataset consists of 30,000 training images and 7,500 validation images, all of size 150x150 pixels. All images are stored as one channel numpy arrays. In the training set each class (no, sphere and vort) has an equal distribution  of 10,000 samples each. The same is followed in the validation set.</p> 
+<p>The three classes of the data are shown below:</p> 
+
+<p align="center">
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/classification_data_description.png?raw=true" alt="Three classes of the data."  /> 
+</p>
+
+#### Dataset Preprocessing
+<p>The numpy arrays are first converted into 3 channel PIL images and then finally resized to 224x224x3 pixels. They are then converted to tensors and normalized in the range [-1,1]. Data augmentations like Horizontal flipping are also applied to make the model more robust.</p>  
 
 ### Model Features:
 
-<p>1) The main idea is to build upon previous papers [1], [2] that have performed classification on strong lensing images that is why Resnet34 model pretrained on ImageNet dataset has been used for classification as it simple, lightweight and effective.</p>
+<p>1) The main idea is to build upon previous papers [1], [2] that have performed classification on strong lensing images and that is why Resnet34 model pretrained on ImageNet dataset has been used for classification. The model is simple, lightweight and effective.</p>
 <p>3) Among the 7500 validation images 90% are used during training as validation and 10% are used to conduct different tests to evaluate the model.</p>
 <p>4) Model performs well and gets an accuracy of <strong>92.67%</strong> on the test data and attains an average AUC score of <strong>0.9852</strong>.
 With class individual AUC score being <strong>0.991</strong> for no substructure, <strong>0.985</strong> for sphere and <strong>0.979</strong> for vort. </p>
@@ -17,7 +28,7 @@ With class individual AUC score being <strong>0.991</strong> for no substructure
 
 ### Further Modifications and Ideas:
 <p>1) Given a larger dataset, transformer based models like ViT and Swin-Transformers can be tried out.</p>
-<p>2) Attetnion modules can be encorporated to the base Resnet models which would give the model global awareness from    attention module and high inductive bias from CNN.</p>
+<p>2) Attetnion modules can be encorporated to the base Resnet models giving the model global awareness from attentionvmodule and high inductive bias from the CNN.</p>
 
 ### References:
 <p>[1] Alexander, S., Gleyzer, S., McDonough, E., Toomey, M. W., & Usai, E. (2020). Deep learning the morphology of dark matter substructure. The Astrophysical Journal, 893(1), 15.</p> 
