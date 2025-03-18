@@ -5,6 +5,8 @@
 Classwise ROC             |  Average ROC
 :-------------------------:|:-------------------------:
 ![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_2.png?raw=true)
+<p align="center">Fig. The left plot shows class wise AUC scores with 0 class corresponding to 'no_substructure' 1_class to 'sphere' and 2 class to 'vort'. The right plot shows the average AUC over all three classes.</strong></p>
+
 
 ## 🚀 Setup
 
