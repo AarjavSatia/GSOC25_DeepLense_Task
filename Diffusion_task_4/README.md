@@ -23,7 +23,7 @@ conda create -n diffusion_task python==3.12
 pip install -r requirements.txt
 ```
 
-4️⃣🚀 Run the Project
+### 4️⃣🚀 Run the Project 
 Run the GSOC'25_DeepLense_Diffusion-task.ipynb file
 
 
