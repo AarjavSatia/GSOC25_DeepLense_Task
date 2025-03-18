@@ -21,22 +21,18 @@ GSOC25_DeepLense_Task/
     │──README.md
 ```
 
-## **📝 Test Details**  
+## **📝 Task Details**  
 
 ### 🔹 **Common Test I: Multi-Class Classification**  
 - **Goal:** Classify images into three categories: no substructure, subhalo substructure, and vortex substructure.  
-- **Model Used:** Vision Transformer (ViT)  
+- **Model Used:** ResNet-34  
 - **Evaluation Metrics:** AUC score, ROC curve  
-- **Location:** [`common_test_01/`](common_test_01/)  
+- **Location:** [`Common_Task/`](Common_Task/)  
 
 ### 🔹 **Specific Test IV: Diffusion Task**  
-- **Goal:** Train a **Masked Autoencoder (MAE)** on no_sub samples and fine-tune it for multi-class classification and super-resolution.  
-- **Steps:**  
-  1. Pre-train an MAE on no_sub samples for feature learning.  
-  2. Fine-tune it for classification on the full dataset.  
-  3. Further fine-tune it for a **super-resolution** task.  
-- **Evaluation Metrics:** AUC score (classification), MSE/SSIM/PSNR (super-resolution).  
-- **Location:** [`specific_test_06/`](specific_test_06/)  
+- **Goal:** Develop a generative model to simulate realistic strong gravitational lensing images
+- **Evaluation Metrics:** Fréchet Inception Distance (FID)  
+- **Location:** [`Diffusion_task_4/`](Diffusion_task_4/)  
 
 ## 🚀 **Running the Code**  
 To setup the enviornment and run the code, follow the instructions in  [`Common task README.md/`](Common_Task/) for common task and [`DIffusion README.md/`](Diffusion_task_4/) for Diffusion task 
