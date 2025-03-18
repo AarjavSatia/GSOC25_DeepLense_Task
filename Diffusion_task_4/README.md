@@ -1,7 +1,7 @@
 # GSOC-25 DeepLense Diffusion Task
 
 <p align="center">
-  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
+  <img src="https://github.com/AarjavSatia/GSOC25_DeepLense_Task/blob/main/Diffusion_task_4/images/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
 </p>
 <p align="center">Fig. Lensing samples generated through diffusion <strong>(FID : 3.5294)</strong></p>
 
@@ -32,7 +32,7 @@ Run the GSOC'25_DeepLense_Diffusion-task.ipynb file
 <p>Few images from the dataset are shown below:</p>
 
 <p align="center">
-  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_data_description.png"?raw=true" alt="Example samples from the dataset"  /> 
+  <img src="https://github.com/AarjavSatia/GSOC25_DeepLense_Task/blob/main/Diffusion_task_4/images/diffusion_data_description.png"?raw=true" alt="Example samples from the dataset"  /> 
 </p>
 
 
