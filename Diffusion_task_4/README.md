@@ -1,5 +1,22 @@
 # GSOC-24 DeepLense Diffusion Task
 
+## 🚀 Setup
+
+Follow these steps to set up and run the project locally.
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+
+pip install -r requirements.txt
+
+python main.py  # Replace with actual entry point
+
 <p align="center">
   <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Diffusion_Task/blob/main/images/diffusion_sample-1.png"?raw=true" alt="Lensing samples generated through diffusion."  width="400" height="400" /> 
 </p>
