@@ -40,7 +40,7 @@ GSOC25_DeepLense_Task/
 - **Evaluation Metrics:** Fréchet Inception Distance (FID)
 - **Result:** FID -> 3.5294
 - **Location:** [`Diffusion_task_4/`](Diffusion_task_4/)
-- **Pretrained Weights:** [`Diffusion_task_weights/`]([Diffusion_task_4](https://drive.google.com/file/d/1RzSDhRZ8YLXZQqF6-QCbGHOheXA0t17-/view?usp=sharing)
+- **Pretrained Weights:** [`Diffusion_task_weights/`](https://drive.google.com/file/d/1RzSDhRZ8YLXZQqF6-QCbGHOheXA0t17-/view?usp=sharing)
 
 ## 🚀 **Running the Code**  
 To setup the enviornment and run the code, follow the instructions in  [`Common task README.md/`](Common_Task/) for common task and [`DIffusion README.md/`](Diffusion_task_4/) for Diffusion task 
